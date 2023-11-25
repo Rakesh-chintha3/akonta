@@ -1,0 +1,779 @@
+*{
+    /* margin: 0 !important; */
+    /* padding: 0 !important; */
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    /* width: 85% !important; */
+    /* margin: auto !important; */
+    width: 85%;
+    margin: auto;
+}
+.bg1{
+    background-color:#2d3e50;
+    height: 100px;
+    position: fixed;
+    z-index: 2;
+    /* right: 0; */
+    /* left: 0; */
+    width: 100%;
+    overflow-y: hidden;
+
+    /* border-bottom: 1px solid gray ; */
+}
+.subbg1{
+    display: grid;
+    grid-template-columns: 30% 36% 33%;
+    /* padding-top: 20px !important; */
+}
+.one{
+    background-image: url("icon1.png");
+    background-size: cover;
+    background-position: center ;
+    width: 120px ;
+    height: 40px ;
+    margin-top: 30px;
+}
+/* .one h2{
+    margin-left: 40px;
+    font-size: 30px;
+} */
+.two a{
+    text-decoration:none;
+    margin: 30px 5px !important;
+    font-size: 18px;
+    color: white;
+    color: white;
+}
+.two{
+    margin: 40px 5px ;
+}
+.three{
+    margin: 20px 0px;
+    text-align: right;
+}
+.three input{
+    
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    color: white;
+}
+
+
+/* --bg1 phone-- */
+
+
+
+
+/* bg1 for tab */
+
+
+
+.bg2{
+    background-color:#2d3e50;
+}
+.subbg2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* padding-top: 150px !important; */
+    /* padding-top: 150px ; */
+}
+.four{
+    padding: 160px 20px;
+}
+.four h1{
+    font-size: 65px;
+    color: white;
+}
+.four p{
+    padding: 20px 0;
+    font-size: 17px;
+    color: white;
+}
+.four button{
+    font-size: 15px;
+    padding: 10px 30px;
+    background-color:#0AF767;
+    color: white;
+    border: 1px solid #0AF767;
+}
+.four button:hover{
+    color:black;
+    background-color: white;
+}
+.image1{
+    background-image: url("akonta1.png");
+    background-position: center;
+    background-size: 100%;
+    height: 500px;
+    margin: 150px 80px 20px 80px   ;
+    transform: rotate(10deg);
+}
+.bg3{
+    /* padding-top: 20px; */
+}
+.subbg3{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.image4{
+    background-image: url("icon2.png");
+    background-position: center;
+    background-size: 100%;
+    height: 30px;
+    width: 100px;
+    margin: 40px;
+}
+.image5{
+    background-image: url("icon3.png");
+    background-position: center;
+    background-size: 100%;
+    height: 28px;
+    width: 100px;
+    margin: 40px;
+}
+.image6{
+    background-image: url("icon4.png");
+    background-position: center;
+    background-size: 100%;
+    height: 30px;
+    width: 100px;
+    margin: 40px;
+}
+.image7{
+    background-image: url("icon5.png");
+    background-position: center;
+    background-size: 100%;
+    height: 30px;
+    width: 100px;
+    margin: 40px;
+}
+.image8{
+    background-image: url("icon6.png");
+    background-position: center;
+    background-size: 100%;
+    height: 28px;
+    width: 100px;
+    margin: 40px;
+}
+.subbg4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.image2{
+    background-image: url("akonta2.png");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 600px;
+    margin: 30px 0 0 0;
+}
+.bg4{
+    margin-top: 40px;
+}
+.five h1{
+    font-size: 40px;
+    padding: 50px 0 0 80px;
+}
+.five p{
+    margin-left: 80px;
+    font-size: 18px;
+}
+.subfive{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 20px;
+}
+p i{
+    color: #0AF767;
+
+}
+.subbgg5{
+    display: flex;
+    justify-content: space-between;
+     /* display: grid; */
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    margin-top: 50px 0;
+    /* background-color: lightgrey; */
+    padding: 0 0 30px 0 ;
+    text-align: center;
+}
+.subbg5{
+     /* display: grid; */
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    margin: 50px 50px;
+    background-color: lightgrey;
+    padding: 20px 0 0 0; 
+}
+.six i{
+    font-size: 60px;
+    /* margin-left: 100px; */
+    color: #0AF767;
+}
+.seven i{
+    font-size: 60px;
+    /* margin-left: 100px; */
+    color: #0AF767;
+}
+.eight i{
+    font-size: 60px;
+    /* margin-left: 100px; */
+    color: #0AF767;
+}
+.nine i{
+    font-size: 60px;
+    /* margin-left: 100px; */
+    color: #0AF767;
+}
+.six h1{
+    font-size: 40px;
+    /* padding-left: 100px; */
+    margin: 5px 0;
+}
+.six p{
+    /* padding-left: 100px; */
+}
+.seven h1{
+    font-size: 40px;
+    /* padding-left: 100px; */
+    margin: 5px 0;
+}
+.seven p{
+    /* padding-left: 100px; */
+}
+.eight h1{
+    font-size: 40px;
+    /* padding-left: 120px; */
+    margin: 5px 0;
+}
+.eight p{
+    /* padding-left: 100px; */
+}
+.nine h1{
+    font-size: 40px;
+    /* padding-left: 100px; */
+    margin: 5px 0;
+}
+.nine p{
+    /* padding-left: 100px; */
+}
+.subbg6 h1{
+    font-size: 40px;
+    padding: 30px 50px 20px 0;
+    margin: 30px 0;
+}
+.part1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 50px ;
+}
+.part1 i{
+    font-size: 50px;
+    color: #0AF767;
+    margin: -50px 0;
+}
+.part1 p{
+    margin-top: -30px;
+}
+.Z h1{
+    font-size: 25px;
+}
+.Y h1{
+    font-size: 25px;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 50px ;
+}
+.part2 i{
+    font-size: 50px;
+    color: #0AF767;
+    margin: -50px 0;
+    overflow-x: hidden;
+}
+.part2 p{
+    margin-top: -30px;
+     /* overflow-y: hidden; */
+} 
+.X h1{
+    font-size: 20px;
+}
+.W h1{
+    font-size: 25px;
+}
+.part3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* margin-bottom: 50px ; */
+    
+}
+.part3 i{
+    font-size: 50px;
+    color: #0AF767;
+    margin: -50px 0;
+}
+.part3 p{
+    margin-top: -30px;
+}
+.P h1{
+    font-size: 25px;
+}
+.Q h1{
+    font-size: 25px;
+}
+.subbg7{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color:#2d3e50;
+    margin-top:40px ;
+}
+.image3{
+    background-image: url("akonta3.png");
+    background-position: center;
+    background-size: 100%;
+    height: 400px;
+    margin: 30px 50px 30px 30px;
+}
+.ten{
+    padding-top: 110px;
+}
+.ten i{
+    color: aquamarine;
+    font-size: 60px;
+}
+.ten p{
+    font-size: 20px;
+    color: white;
+}
+.ten h4{
+    margin: 10px 0;
+    color: white;
+}
+.subbg8{
+    display: grid;
+    grid-template-columns: 25% 30% 25% 20%;
+    margin: 50px 20px;
+}
+.subbg9{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.BA i{
+    margin: 0 10px;
+}
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:469px){
+    .bg1{
+        width: 100%x;
+        position: fixed;
+    }
+    .two{
+        display: none;
+    }
+    .three{
+        display: none;
+    }
+    .one{
+        width: 120px;
+        height: 40px;
+        margin: 30px 0 0  10px;
+    }
+    .bg2{
+        height: 1100px;
+    }
+    .subbg2{
+        display: block;
+        overflow-y: hidden;
+    }
+    .four h1{
+        font-size: 44px;
+    }
+    .image1{
+        height: 300px;
+        width: 250px;
+        /* margin: -50px 0 -30px -50px; */
+        /* padding: 0 0 30px 0; */
+        overflow-y: hidden;
+    }
+    .bg2 .image1{
+        /* margin: -70px 0  0 110px; */
+        margin: auto;
+        overflow-y: hidden;
+    }
+    .subbg3{
+        display: block;
+    }
+    .image4{
+        margin:40px auto;
+        width: 120px;
+        height: 40px;
+    }
+    .image5{
+        margin:40px auto;
+        width: 120px;
+        height: 40px;
+    }
+    .image6{
+        margin: 40px auto;
+       width: 120px;
+        height: 37px;
+    }
+    .image7{
+        margin:40px auto;
+        width: 120px;
+        height: 32px;
+    }
+    .image8{
+        margin:40px auto;
+        width: 120px;
+        height: 32px;
+    }    
+    .subbg4{
+        display: block;
+        padding-top: 30px;
+    }
+    .subbg4 .image2{
+        /* margin-top: 30px; */
+        width: auto;
+        height: 200px;
+    }
+    .five h1{
+        font-size: 23px;
+        padding-left: 10px;
+    }
+    .five p{
+        font-size: 15px;
+        /* padding-left: 10px;    */
+        margin-left: 10px;
+    }
+    .subbgg5{
+        display: block;
+        width: auto;
+    }
+    .six{
+        margin:40px 0;   
+    }
+    .six h1{
+        font-size: 30px;
+    }
+    .six p{
+        font-size: 15px;
+    }
+    .seven{
+        margin: 40px 0;
+    }
+    .seven h1{
+        font-size: 30px;
+    }
+    .seven p{
+        font-size: 15px;
+    }
+    .eight{
+        margin: 40px 0;
+    }
+    .eight h1{
+        font-size: 30px;
+    }
+    .eight p{
+        font-size: 15px;
+    }
+    .nine{
+        margin: 40px 0;
+    }
+    .nine h1{
+        font-size: 30px;
+    }
+    .subbg6 h1{
+        font-size: 25px;
+        padding: 20px 10px;
+    }
+    .part1{
+        display: block;
+    }
+    .part2{
+        display: block;
+    }
+    .part3{
+        display: block;
+    }
+    .bg7{
+        height: 500px;
+        position: relative;
+        overflow-y: hidden;
+        margin-top: 20px;
+    }
+    .subbg7{
+        display: block;
+    }
+    .subbg7 .image3{
+        width: 220px;
+        height: 180px;
+        margin-top: 30px ;
+        position: absolute;
+        overflow-y: hidden;
+    }
+    .ten{
+        height: 260px;
+        padding: 250px 0 0 20px;
+    }
+    .ten h4{
+        font-size: 20px;
+    }
+    .ten p{
+        font-size: 16px;
+    }
+    .subbg7 .ten i{
+        font-size: 40px;
+        
+    }
+    .bg8{
+        padding-top: 100px;
+    }
+    .subbg8{
+        display: block;
+    }
+    .subbg8 .M{
+        font-size: 12px;
+        margin: 20px 0 ;
+    }
+    .N h2{
+        font-size: 17px;
+        margin: 10px 0 0 0;
+    }
+    .O h2{
+        font-size: 17px;
+        margin: 20px 0 0 0;
+    }
+    .K h2{
+        font-size: 17px;
+        margin: 20px 0 0 0;
+    }
+    .subbg9{
+        display: block;
+        text-align: center;
+    }
+    .AB{
+        padding: 10px;
+    }
+    .BA a{
+        margin:  10px 20px;
+        margin: 0 20px;
+}
+}
+
+@media screen and (min-width:469px) and (max-width:728px){
+    .bg1{
+        width: 100%x;
+        position: fixed;
+    }
+    .two{
+        display: none;
+    }
+    .three{
+        display: none;
+    }
+    .one{
+        width: 120px;
+        height: 40px;
+        margin: 30px 0 0  10px;
+    }
+    .bg2{
+        height: 1100px;
+    }
+    .subbg2{
+        display: block;
+        overflow-y: hidden;
+    }
+    .four h1{
+        font-size: 60px;
+    }
+    .image1{
+        height: 380px;
+        width: 300px;
+        /* margin: -50px 0 -30px -50px; */
+        /* padding: 0 0 30px 0; */
+        overflow-y: hidden;
+    }
+    .bg2 .image1{
+        /* margin: -70px 0  0 110px; */
+        margin: auto;
+        overflow-y: hidden;
+    }
+    .subbg3{
+        display: block;
+    }
+    .image4{
+        margin:40px auto;
+        width: 120px;
+        height: 40px;
+    }
+    .image5{
+        margin:40px auto;
+        width: 120px;
+        height: 40px;
+    }
+    .image6{
+        margin: 40px auto;
+       width: 120px;
+        height: 37px;
+    }
+    .image7{
+        margin:40px auto;
+        width: 120px;
+        height: 32px;
+    }
+    .image8{
+        margin:40px auto;
+        width: 120px;
+        height: 32px;
+    }    
+    .subbg4{
+        display: block;
+        padding-top: 30px;
+    }
+    .subbg4 .image2{
+        /* margin-top: 30px; */
+        width: auto;
+        height: 200px;
+    }
+    .five h1{
+        font-size: 23px;
+        padding-left: 10px;
+    }
+    .five p{
+        font-size: 15px;
+        /* padding-left: 10px;    */
+        margin-left: 10px;
+    }
+    .subbgg5{
+        display: block;
+        width: auto;
+    }
+    .six{
+        margin:40px 0;   
+    }
+    .six h1{
+        font-size: 30px;
+    }
+    .six p{
+        font-size: 15px;
+    }
+    .seven{
+        margin: 40px 0;
+    }
+    .seven h1{
+        font-size: 30px;
+    }
+    .seven p{
+        font-size: 15px;
+    }
+    .eight{
+        margin: 40px 0;
+    }
+    .eight h1{
+        font-size: 30px;
+    }
+    .eight p{
+        font-size: 15px;
+    }
+    .nine{
+        margin: 40px 0;
+    }
+    .nine h1{
+        font-size: 30px;
+    }
+    .subbg6 h1{
+        font-size: 30px;
+        padding: 20px 10px;
+    }
+    .part1{
+        display: block;
+    }
+    .part2{
+        display: block;
+    }
+    .part3{
+        display: block;
+    }
+    .bg7{
+        height: 500px;
+        position: relative;
+        overflow-y: hidden;
+        margin-top: 20px;
+    }
+    .subbg7{
+        display: block;
+    }
+    .subbg7 .image3{
+        width: 350px;
+        height: 200px;
+        margin-top: 30px ;
+        position: absolute;
+        overflow-y: hidden;
+    }
+    .ten{
+        height: 260px;
+        padding: 250px 0 0 20px;
+    }
+    .ten h4{
+        font-size: 20px;
+    }
+    .ten p{
+        font-size: 16px;
+    }
+    .subbg7 .ten i{
+        font-size: 40px;
+        
+    }
+    .bg8{
+        padding-top: 100px;
+    }
+    .subbg8{
+        display: block;
+    }
+    .subbg8 .M{
+        font-size: 12px;
+        margin: 20px 0 ;
+    }
+    .N h2{
+        font-size: 17px;
+        margin: 10px 0 0 0;
+    }
+    .O h2{
+        font-size: 17px;
+        margin: 20px 0 0 0;
+    }
+    .K h2{
+        font-size: 17px;
+        margin: 20px 0 0 0;
+    }
+    .subbg9{
+        display: block;
+        text-align: center;
+    }
+    .AB{
+        padding: 10px;
+    }
+    .BA a{
+        margin:  10px 20px;
+        margin: 0 20px;
+}   
+}
+    
+    
+  
